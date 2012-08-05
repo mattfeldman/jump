@@ -565,7 +565,8 @@ public Action:StatsCmdCallback(client, args){
 //Author Attribution - Do not modify
 //This function will allow for all contributors to the project to be credited (in order by first contribution)
 public Action:CreditsCmdCallback(client, args){
-	JPrint(client, "Jump++ by decaprime"); 
+	JPrint(client, "Jump++ by decaprime");
+	JPrint(client, "Contributions from: tkoi");
 }
 /*--Functions--*/
 public SaveClientLocation(client){
